@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background: white;
+}
+
+.skills {
+  color: black;
+  width: 500px;
+  margin: 60px auto;
+}
+
+.skills h1 {
+  font-size: 2rem;
+}
+
+.skills li {
+  list-style-type: none;
+  margin: 20px 0 20px 0;
+}
+
+.skills li h3 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.bar {
+  background: #0550f3;
+  display: block;
+  height: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.bar span {
+  height: 7px;
+  border: 1px solid white;
+  border-radius: 3px;
+  float: left;
+}
+
+.html {
+  width: 90%;
+  background: #f2f2f2;
+  animation: html 2s;
+}
+
+.css {
+  width: 50%;
+  background: #f2f2f2;
+  animation: css 2s;
+}
+
+.js {
+  width: 20%;
+  background: #f2f2f2;
+  animation: js 2s;
+}
+
+@keyframes html {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 90%;
+  }
+}
+
+@keyframes css {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 50%;
+  }
+}
+
+@keyframes js {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 20%;
+  }
+}
