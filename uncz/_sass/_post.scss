@@ -1,0 +1,38 @@
+.post-container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.post-container .post {
+  margin: 10px 10px 0 10px;
+}
+
+.post-title {
+  text-align: center;
+  font-size: 2rem;
+  padding-bottom: 10px;
+}
+
+.post img {
+  margin: 10px auto;
+  display: block;
+  width: 100%;
+}
+
+.post h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 5px;
+}
+
+.post h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.post p {
+  margin-bottom: 10px;
+  text-align: justify;
+}
